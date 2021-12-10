@@ -66,7 +66,6 @@ def conversor_letra(h_letra):
 layout = [
     [sg.Text('Bem-vindo à calculadora de salário dos professores da SEDUC GO!')],
     [sg.Text('Esta versão do programa *NÃO* inclui no cálculo de salário:')],
-    [sg.Text('===> Quinquênio')],
     [sg.Text('===> Bônus por Resultado ou Bônus Fundeb')],
     [sg.Text('Sua escola é de período integral?'), sg.Radio('Sim', 'GDPI', key='integral'), sg.Radio('Não', 'GDPI')],
     [sg.Text('Carga horária base: '), sg.Combo(['20 horas', '30 horas', '40 horas'], key='carga_horaria', size=(8, 1))],
