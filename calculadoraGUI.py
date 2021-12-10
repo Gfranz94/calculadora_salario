@@ -86,7 +86,7 @@ layout = [
 
 
 #janela do programa
-window = sg.Window('Calculadora de Salário GUI version 1.0 by Gustavo B. Franz', layout, icon=r'D:\Calculadora Salário\Versão GUI\Flag_of_Goias.ico')
+window = sg.Window('Calculadora de Salário GUI version 1.0 by Gustavo B. Franz', layout)
 
 #loop mantém a janela aberta após execução do programa
 while True:
