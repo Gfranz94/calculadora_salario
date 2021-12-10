@@ -1,7 +1,9 @@
 import PySimpleGUI as sg
 
 ''' implementar quinquênio (5% cada) entra para previdencia e irrf
-    implementar GDPI (é livre de qualquer desconto previdenciário e pecuniário'''
+    implementar GDPI (é livre de qualquer desconto previdenciário e pecuniário
+    trocar a ordem de algumas perguntas, quem sabe separar um prog para temporarios
+    e outro para efetivos?'''
 
 
 #Esta função calcula o IRRF
