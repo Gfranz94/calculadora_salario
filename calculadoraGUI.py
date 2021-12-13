@@ -214,10 +214,10 @@ while True:
 
         proventos = salario_bruto + internet + alimentacao + aprimoramento + gdpi
 
-        print('\nSeus proventos são de R$', proventos)
-        print('\nSua contibuição previdenciária é de R$', previdencia)
-        print('\nA mordida do leão é de R$', imposto)
-        print('\nO seu salário líquido é de R$', salario_liquido)
+        print('\nSeus proventos são de R$ %.2f' %proventos)
+        print('\nSua contibuição previdenciária é de R$ %.2f' %previdencia)
+        print('\nA mordida do leão é de R$ %.2f' %imposto)
+        print('\nO seu salário líquido é de R$ %.2f' %salario_liquido)
         print('\nPapai Caiado não está pagando mal hein ( ͡° ͜ʖ ͡°)')
 
 
@@ -258,9 +258,9 @@ while True:
         salario_liquido = salario_bruto - previdencia - imposto - sintego + internet + aprimoramento
 
         proventos = salario_bruto + internet + aprimoramento
-
-        print('\nSeus proventos são de R$', proventos)
-        print('\nSua contibuição previdenciária é de R$', previdencia)
-        print('\nA mordida do leão é de R$', imposto)
-        print('\nO seu salário líquido é de R$', salario_liquido)
+        
+        print('\nSeus proventos são de R$ %.2f' %proventos)
+        print('\nSua contibuição previdenciária é de R$ %.2f' %previdencia)
+        print('\nA mordida do leão é de R$ %.2f' %imposto)
+        print('\nO seu salário líquido é de R$ %.2f' %salario_liquido)
         print('\nPapai Caiado não está pagando mal hein ( ͡° ͜ʖ ͡°)')
