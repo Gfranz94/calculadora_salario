@@ -24,6 +24,8 @@ def leao(base_irrf, num_dependente):
         imposto = base_irrf*0.275 - 869.36 -189.59*num_dependente
 
     return imposto
+
+
 #esta função calcula o desconto do INSS para os profs temporarios
 def INSS(salario_bruto):
     '''esta função calcula o desconto do INSS para os profs temporarios levando em
@@ -42,6 +44,8 @@ def INSS(salario_bruto):
     if salario_bruto > 6433.57:
         inss = 751.99
     return inss
+
+
 
 #Converte a letra em número para calculo do salario do prof efetivo
 def conversor_letra(h_letra):
@@ -211,6 +215,8 @@ while True:
         proventos = salario_bruto + internet + alimentacao + aprimoramento + gdpi
 
         print('\nSeus proventos são de R$', proventos)
+        print('\nSua contibuição previdenciária é de R$', previdencia)
+        print('\nA mordida do leão é de R$', imposto)
         print('\nO seu salário líquido é de R$', salario_liquido)
         print('\nPapai Caiado não está pagando mal hein ( ͡° ͜ʖ ͡°)')
 
@@ -254,5 +260,7 @@ while True:
         proventos = salario_bruto + internet + aprimoramento
 
         print('\nSeus proventos são de R$', proventos)
+        print('\nSua contibuição previdenciária é de R$', previdencia)
+        print('\nA mordida do leão é de R$', imposto)
         print('\nO seu salário líquido é de R$', salario_liquido)
         print('\nPapai Caiado não está pagando mal hein ( ͡° ͜ʖ ͡°)')
